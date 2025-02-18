@@ -1,7 +1,8 @@
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from locators import ConstructorPageLocators
-from conftest import loggined_driver
+from conftest import driver,loggined_driver
+
 
 
 

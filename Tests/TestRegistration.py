@@ -3,7 +3,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from data import Data
 from locators import MainPageLocators, RegisterPageLocators, LoginPageLocators
-from conftest import driver
+from conftest import driver,loggined_driver
 
 
 class TestRegistration:

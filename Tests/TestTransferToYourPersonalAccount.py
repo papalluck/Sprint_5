@@ -1,7 +1,7 @@
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from locators import MainPageLocators,ProfilePageLocators,ConstructorPageLocators
-from conftest import loggined_driver
+from conftest import driver,loggined_driver
 
 
 class TestTransferToYourPersonalAccount:
